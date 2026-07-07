@@ -106,17 +106,23 @@ class CongruenceCoefficient:
         A: np.ndarray,
         B: np.ndarray,
         n_bootstrap: int = 1000,
-        ci_level: float = 0.95
+        ci_level: float = 0.95,
+        seed: int = 42
     ) -> dict:
         """
         Bootstrap confidence interval for congruence coefficient.
+
+        Reproducibility: draws come from a local ``np.random.default_rng(seed)``
+        (default seed 42), so results are deterministic regardless of global
+        NumPy RNG state.
         """
+        rng = np.random.default_rng(seed)
         n_entities = A.shape[0]
         bootstrap_phis = []
 
         for _ in range(n_bootstrap):
             # Sample with replacement
-            indices = np.random.choice(n_entities, size=n_entities, replace=True)
+            indices = rng.choice(n_entities, size=n_entities, replace=True)
             A_boot = A[indices]
             B_boot = B[indices]
 
@@ -143,18 +149,25 @@ class CongruenceCoefficient:
         self,
         A: np.ndarray,
         B: np.ndarray,
-        n_permutations: int = 1000
+        n_permutations: int = 1000,
+        seed: int = 42
     ) -> dict:
         """
         Permutation test: is φ significantly greater than chance?
+
+        Reproducibility: permutations come from a local
+        ``np.random.default_rng(seed)`` (default seed 42), so the reported
+        p-value is deterministic regardless of global NumPy RNG state.
         """
+        rng = np.random.default_rng(seed)
+
         # Observed φ
         observed = self.matrix_congruence(A, B)['mean_phi']
 
         # Null distribution (permute rows of B)
         null_phis = []
         for _ in range(n_permutations):
-            perm_indices = np.random.permutation(B.shape[0])
+            perm_indices = rng.permutation(B.shape[0])
             B_perm = B[perm_indices]
             null_phi = self.matrix_congruence(A, B_perm)['mean_phi']
             null_phis.append(null_phi)

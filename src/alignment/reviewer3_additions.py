@@ -223,9 +223,10 @@ def split_sample_validation(base_path: Path) -> dict:
 
     # Permutation test
     n_perm = 1000
+    rng = np.random.default_rng(42)  # deterministic; local generator, independent of global state
     null_phis = []
     for _ in range(n_perm):
-        perm_idx = np.random.permutation(n_assets)
+        perm_idx = rng.permutation(n_assets)
         phi_null = tucker_phi(stats_h2[perm_idx], factors_h1)
         null_phis.append(phi_null)
 

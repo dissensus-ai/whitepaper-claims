@@ -1,0 +1,183 @@
+{
+  "description": "matched-estimator positive control, real 43x7 stats base, mirrors headline 10D->7D->recover",
+  "config": {
+    "reps": 500,
+    "perms": 200,
+    "grid": [
+      0.2,
+      0.3,
+      0.5,
+      0.65,
+      0.8
+    ],
+    "seed": 20260627,
+    "base": "real 43x7 stats",
+    "n": 43
+  },
+  "scenarios": {
+    "ideal_1.0": {
+      "reliability": 1.0,
+      "cells": [
+        {
+          "true_phi": 0.2,
+          "reliability": 1.0,
+          "power": 0.436,
+          "power_se": 0.02217674457624473,
+          "mean_recovered_phi": 0.3604359873715402
+        },
+        {
+          "true_phi": 0.3,
+          "reliability": 1.0,
+          "power": 0.834,
+          "power_se": 0.016639951923007473,
+          "mean_recovered_phi": 0.4131211452235865
+        },
+        {
+          "true_phi": 0.5,
+          "reliability": 1.0,
+          "power": 1.0,
+          "power_se": 0.0,
+          "mean_recovered_phi": 0.5630086708923298
+        },
+        {
+          "true_phi": 0.65,
+          "reliability": 1.0,
+          "power": 1.0,
+          "power_se": 0.0,
+          "mean_recovered_phi": 0.688871812943173
+        },
+        {
+          "true_phi": 0.8,
+          "reliability": 1.0,
+          "power": 1.0,
+          "power_se": 0.0,
+          "mean_recovered_phi": 0.8210094146742394
+        }
+      ],
+      "mde_power80": 0.29145728643216084
+    },
+    "rho_0.50": {
+      "reliability": 0.5,
+      "cells": [
+        {
+          "true_phi": 0.2,
+          "reliability": 0.5,
+          "power": 0.13,
+          "power_se": 0.015039946808416579,
+          "mean_recovered_phi": 0.32952153735022455
+        },
+        {
+          "true_phi": 0.3,
+          "reliability": 0.5,
+          "power": 0.416,
+          "power_se": 0.02204286732709699,
+          "mean_recovered_phi": 0.3589798341950454
+        },
+        {
+          "true_phi": 0.5,
+          "reliability": 0.5,
+          "power": 0.96,
+          "power_se": 0.008763560920082661,
+          "mean_recovered_phi": 0.4413647420572017
+        },
+        {
+          "true_phi": 0.65,
+          "reliability": 0.5,
+          "power": 1.0,
+          "power_se": 0.0,
+          "mean_recovered_phi": 0.5176928593507286
+        },
+        {
+          "true_phi": 0.8,
+          "reliability": 0.5,
+          "power": 1.0,
+          "power_se": 0.0,
+          "mean_recovered_phi": 0.6046639438859827
+        }
+      ],
+      "mde_power80": 0.4411764705882353
+    },
+    "rho_0.314": {
+      "reliability": 0.314,
+      "cells": [
+        {
+          "true_phi": 0.2,
+          "reliability": 0.314,
+          "power": 0.1,
+          "power_se": 0.01341640786499874,
+          "mean_recovered_phi": 0.3188852776198178
+        },
+        {
+          "true_phi": 0.3,
+          "reliability": 0.314,
+          "power": 0.214,
+          "power_se": 0.01834142851579451,
+          "mean_recovered_phi": 0.33605479130646543
+        },
+        {
+          "true_phi": 0.5,
+          "reliability": 0.314,
+          "power": 0.76,
+          "power_se": 0.019099738218101316,
+          "mean_recovered_phi": 0.39614990505701014
+        },
+        {
+          "true_phi": 0.65,
+          "reliability": 0.314,
+          "power": 0.984,
+          "power_se": 0.00561141693336006,
+          "mean_recovered_phi": 0.45087549098503077
+        },
+        {
+          "true_phi": 0.8,
+          "reliability": 0.314,
+          "power": 1.0,
+          "power_se": 0.0,
+          "mean_recovered_phi": 0.510702576135425
+        }
+      ],
+      "mde_power80": 0.5267857142857143
+    },
+    "rho_0.07": {
+      "reliability": 0.07,
+      "cells": [
+        {
+          "true_phi": 0.2,
+          "reliability": 0.07,
+          "power": 0.064,
+          "power_se": 0.010945684080951725,
+          "mean_recovered_phi": 0.30680339879831586
+        },
+        {
+          "true_phi": 0.3,
+          "reliability": 0.07,
+          "power": 0.072,
+          "power_se": 0.011559930795640603,
+          "mean_recovered_phi": 0.31414019009116667
+        },
+        {
+          "true_phi": 0.5,
+          "reliability": 0.07,
+          "power": 0.142,
+          "power_se": 0.015609996796924718,
+          "mean_recovered_phi": 0.32832491307318984
+        },
+        {
+          "true_phi": 0.65,
+          "reliability": 0.07,
+          "power": 0.284,
+          "power_se": 0.020166506886419373,
+          "mean_recovered_phi": 0.3455468425558993
+        },
+        {
+          "true_phi": 0.8,
+          "reliability": 0.07,
+          "power": 0.458,
+          "power_se": 0.022281651644346298,
+          "mean_recovered_phi": 0.3604089896873362
+        }
+      ],
+      "mde_power80": null
+    }
+  }
+}

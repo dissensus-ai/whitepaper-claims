@@ -47,13 +47,14 @@ def reduce_dimensions(X: np.ndarray, target_dim: int) -> np.ndarray:
 
 
 def permutation_test(X: np.ndarray, Y: np.ndarray, observed: float,
-                     n_permutations: int = 1000) -> float:
-    """Permutation test for significance."""
+                     n_permutations: int = 1000, seed: int = 42) -> float:
+    """Permutation test for significance (deterministic; local default_rng(seed))."""
+    rng = np.random.default_rng(seed)
     n = X.shape[0]
     null_values = []
 
     for _ in range(n_permutations):
-        perm_idx = np.random.permutation(n)
+        perm_idx = rng.permutation(n)
         Y_perm = Y[perm_idx]
         phi = tucker_phi(X, Y_perm)
         null_values.append(phi)
@@ -63,13 +64,14 @@ def permutation_test(X: np.ndarray, Y: np.ndarray, observed: float,
 
 
 def bootstrap_ci(X: np.ndarray, Y: np.ndarray, n_bootstrap: int = 1000,
-                 ci: float = 0.95) -> dict:
-    """Bootstrap confidence intervals."""
+                 ci: float = 0.95, seed: int = 42) -> dict:
+    """Bootstrap confidence intervals (deterministic; local default_rng(seed))."""
+    rng = np.random.default_rng(seed)
     n = X.shape[0]
     bootstrap_values = []
 
     for _ in range(n_bootstrap):
-        idx = np.random.choice(n, size=n, replace=True)
+        idx = rng.choice(n, size=n, replace=True)
         X_boot = X[idx]
         Y_boot = Y[idx]
         phi = tucker_phi(X_boot, Y_boot)

@@ -16,13 +16,14 @@ class RobustnessChecker:
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
     def subsample_stability(self, claims_matrix: np.ndarray, stats_matrix: np.ndarray, symbols: list[str],
-                           n_iterations: int = 100, subsample_frac: float = 0.8) -> dict:
-        """Test alignment stability with random subsamples."""
+                           n_iterations: int = 100, subsample_frac: float = 0.8, seed: int = 42) -> dict:
+        """Test alignment stability with random subsamples (deterministic; local default_rng(seed))."""
         import sys
         sys.path.insert(0, str(self.output_dir.parent.parent / "src"))
         from alignment.procrustes import ProcrustesAlignment
         from alignment.congruence import CongruenceCoefficient
 
+        rng = np.random.default_rng(seed)
         aligner = ProcrustesAlignment()
         congruence = CongruenceCoefficient()
         n = len(symbols)
@@ -30,7 +31,7 @@ class RobustnessChecker:
 
         phis = []
         for _ in range(n_iterations):
-            indices = np.random.choice(n, size=subsample_size, replace=False)
+            indices = rng.choice(n, size=subsample_size, replace=False)
             try:
                 result = aligner.align_matrices(claims_matrix[indices], stats_matrix[indices])
                 cong_result = congruence.matrix_congruence(result['source_rotated'], result['target_centered'])

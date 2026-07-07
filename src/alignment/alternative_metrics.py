@@ -184,13 +184,19 @@ def pls_score(X: np.ndarray, Y: np.ndarray, n_components: int = None) -> dict:
 
 
 def bootstrap_metric(X: np.ndarray, Y: np.ndarray, metric_fn: callable,
-                     n_bootstrap: int = 1000, ci: float = 0.95) -> dict:
-    """Bootstrap confidence intervals for any metric."""
+                     n_bootstrap: int = 1000, ci: float = 0.95, seed: int = 42) -> dict:
+    """Bootstrap confidence intervals for any metric.
+
+    Reproducibility: draws come from a local ``np.random.default_rng(seed)``
+    (default seed 42), so results are deterministic regardless of global
+    NumPy RNG state.
+    """
+    rng = np.random.default_rng(seed)
     n = X.shape[0]
     bootstrap_values = []
 
     for _ in range(n_bootstrap):
-        idx = np.random.choice(n, size=n, replace=True)
+        idx = rng.choice(n, size=n, replace=True)
         X_boot = X[idx]
         Y_boot = Y[idx]
 
@@ -219,13 +225,19 @@ def bootstrap_metric(X: np.ndarray, Y: np.ndarray, metric_fn: callable,
 
 
 def permutation_test(X: np.ndarray, Y: np.ndarray, metric_fn: callable,
-                     observed: float, n_permutations: int = 1000) -> float:
-    """Permutation test for significance of any metric."""
+                     observed: float, n_permutations: int = 1000, seed: int = 42) -> float:
+    """Permutation test for significance of any metric.
+
+    Reproducibility: permutations come from a local ``np.random.default_rng(seed)``
+    (default seed 42), so the reported p-value is deterministic regardless of
+    global NumPy RNG state.
+    """
+    rng = np.random.default_rng(seed)
     n = X.shape[0]
     null_values = []
 
     for _ in range(n_permutations):
-        perm_idx = np.random.permutation(n)
+        perm_idx = rng.permutation(n)
         Y_perm = Y[perm_idx]
 
         try:

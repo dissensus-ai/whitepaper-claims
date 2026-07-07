@@ -1,6 +1,6 @@
 # whitepaper-claims: Are Whitepaper Claims Reflected in Market Structure?
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17917922.svg)](https://doi.org/10.5281/zenodo.17917922)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17772651.svg)](https://doi.org/10.5281/zenodo.17772651)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
@@ -32,7 +32,7 @@ This is framed as a **method plus a cautionary tale**, not a verdict about narra
 | Result | Value |
 |--------|-------|
 | Claims–statistics congruence φ | **0.303** dimension-matched / **0.223** zero-padded — both non-significant (p ≈ 0.35–0.46) |
-| Realistic detection floor (MDE, 80% power) | **φ ≈ 0.66** |
+| Realistic detection floor (MDE, 80% power, estimator-relevant within-category reliability ρ ≈ 0.57) | **φ ≈ 0.44** |
 | Inter-method reliability (Cohen's κ) | **0.25** (fair) |
 | Content-verified corpus | **43** whitepapers ∩ hourly market coverage |
 | Market observations | **17,543** hourly timestamps (2023–2024) |
@@ -53,7 +53,8 @@ whitepaper-claims/
 ├── scripts/                  # analysis pipeline + verification/regeneration scripts
 ├── data/
 │   ├── whitepapers/          # content-verified PDF corpus
-│   └── market/               # hourly market data (Parquet)
+│   ├── market/               # hourly market data (Parquet)
+│   └── metadata/             # input manifests (see "Input manifests" below)
 ├── outputs/                  # pipeline outputs (NLP, alignment, analysis, positive_control)
 ├── figures/                  # generated figures
 ├── tests/                    # pytest suite
@@ -97,6 +98,31 @@ python scripts/make_fig9.py
 
 The corpus-contamination diagnosis is auditable: `outputs/expansion/entity_impact_plot_contaminated_n37.json` preserves the earlier contaminated build (clearly labelled) for the before/after comparison, while every reported number derives from the clean-43 outputs.
 
+**Reproducibility of stochastic steps.** All randomised procedures are seeded. The Procrustes/congruence **permutation test** and **bootstrap CI** (`src/alignment/congruence.py`, `src/alignment/matched_dimension_analysis.py`), the **alternative-metrics** RV/dCor/CCA/PLS permutation and bootstrap routines (`src/alignment/alternative_metrics.py`, `src/alignment/cca_alignment.py`), the **subsample-stability** resampling (`src/analysis/robustness.py`), and the **split-sample permutation** (`src/alignment/reviewer3_additions.py`) all draw from a local `np.random.default_rng(seed=42)` and are deterministic regardless of global NumPy state; the positive-control simulation uses `default_rng(20260627)`. Seeded re-runs reproduce the headline figures exactly (zero-padded φ = 0.223, permutation *p* = 0.433; matched-dimension φ = 0.303, *p* = 0.365).
+
+### Input manifests (data provenance)
+
+`data/metadata/` holds the two input manifests that drive the pipeline (both committed):
+
+| File | Role |
+|------|------|
+| `target_entities.csv` | The asset universe: symbol → Binance ticker mapping and per-asset flags. Consumed by the market and whitepaper collectors (`src/data_pipeline/`). |
+| `whitepaper_metadata.json` | Per-document provenance and content-verification record (source URL, word count, name-match / right-document status). Written by `whitepaper_collector.py`, updated by `expand_corpus.py`, and read by the NLP stage (`run_nlp.py`, `pdf_extractor.py`). |
+
+These are the entry-point inputs; the raw corpus and market Parquet files are regenerated from them. If you clone and the collectors error on a missing manifest, confirm `data/metadata/` was checked out (it is tracked, not gitignored).
+
+### Figure numbering (code file → paper figure)
+
+Code figure **filenames carry legacy numbers that do not match the paper's rendered figure numbers**. The mapping is:
+
+| Paper figure | Code file |
+|--------------|-----------|
+| Figure 1 (entity-impact, before/after verification) | `figures/fig9_entity_impact.pdf` |
+| Figure 2 (3-way method comparison) | `figures/method_comparison_3way.pdf` |
+| Figure 3 (claims-matrix heatmap) | `figures/fig1_claims_heatmap.pdf` |
+| Figure 4 (feature-importance ablation) | `figures/fig8_feature_importance.pdf` |
+| Figure 5 (per-category method agreement) | `figures/category_agreement_heatmap.pdf` |
+
 ## Citation
 
 ```bibtex
@@ -104,7 +130,7 @@ The corpus-contamination diagnosis is auditable: `outputs/expansion/entity_impac
   title  = {Are Whitepaper Claims Reflected in Market Structure? A Contamination-Aware Pipeline and a Power-Limited Null},
   author = {Farzulla, Murad},
   year   = {2026},
-  doi    = {10.5281/zenodo.17917922}
+  doi    = {10.5281/zenodo.17772651}
 }
 ```
 

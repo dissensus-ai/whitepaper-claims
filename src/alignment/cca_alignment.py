@@ -150,14 +150,20 @@ class CCAAlignment:
         X: np.ndarray,
         Y: np.ndarray,
         n_bootstrap: int = 1000,
-        ci_level: float = 0.95
+        ci_level: float = 0.95,
+        seed: int = 42
     ) -> dict:
-        """Bootstrap confidence interval for first canonical correlation."""
+        """Bootstrap confidence interval for first canonical correlation.
+
+        Reproducibility: draws come from a local ``np.random.default_rng(seed)``
+        (default seed 42), deterministic regardless of global NumPy state.
+        """
+        rng = np.random.default_rng(seed)
         n_samples = X.shape[0]
         bootstrap_rhos = []
 
         for _ in range(n_bootstrap):
-            indices = np.random.choice(n_samples, size=n_samples, replace=True)
+            indices = rng.choice(n_samples, size=n_samples, replace=True)
             X_boot = X[indices]
             Y_boot = Y[indices]
 
@@ -277,14 +283,20 @@ class RVCoefficient:
         self,
         X: np.ndarray,
         Y: np.ndarray,
-        n_permutations: int = 1000
+        n_permutations: int = 1000,
+        seed: int = 42
     ) -> dict:
-        """Permutation test for RV significance."""
+        """Permutation test for RV significance.
+
+        Reproducibility: permutations come from a local ``np.random.default_rng(seed)``
+        (default seed 42), deterministic regardless of global NumPy state.
+        """
+        rng = np.random.default_rng(seed)
         observed = self.compute(X, Y)['rv_coefficient']
 
         null_rvs = []
         for _ in range(n_permutations):
-            perm_idx = np.random.permutation(Y.shape[0])
+            perm_idx = rng.permutation(Y.shape[0])
             Y_perm = Y[perm_idx]
             null_rv = self.compute(X, Y_perm)['rv_coefficient']
             null_rvs.append(null_rv)

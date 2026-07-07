@@ -41,10 +41,10 @@ keywords:
 license: CC-BY-4.0
 version: "4.0.0"
 date-released: "2026-06-27"
-doi: "10.5281/zenodo.17917922"
+doi: "10.5281/zenodo.17772651"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.17917922"
+    value: "10.5281/zenodo.17772651"
     description: "Zenodo archive of research materials"
 preferred-citation:
   type: article
@@ -55,4 +55,4 @@ preferred-citation:
   title: "Are Whitepaper Claims Reflected in Market Structure? A Contamination-Aware Pipeline and a Power-Limited Null"
   year: 2026
   journal: "Zenodo"
-  doi: "10.5281/zenodo.17917922"
+  doi: "10.5281/zenodo.17772651"

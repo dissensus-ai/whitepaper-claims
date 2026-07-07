@@ -83,7 +83,9 @@ class CEXCollector:
                 # Small delay for rate limiting
                 await asyncio.sleep(0.1)
 
-            except Exception as e:
+            except ccxt.BaseError as e:
+                # Narrow to CCXT's exchange/network/rate-limit hierarchy so that
+                # genuine programming errors propagate instead of being swallowed.
                 logger.error(f"{symbol}: Fetch error - {e}")
                 break
 

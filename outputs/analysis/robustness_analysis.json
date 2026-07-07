@@ -2,10 +2,10 @@
   "subsample_stability": {
     "n_iterations": 100,
     "subsample_frac": 0.8,
-    "mean_phi": 0.2516174265956472,
-    "std_phi": 0.019089964500789217,
-    "ci_lower": 0.22005815067262213,
-    "ci_upper": 0.29057846799690384
+    "mean_phi": 0.254382305883943,
+    "std_phi": 0.022284720548144697,
+    "ci_lower": 0.21283177558928124,
+    "ci_upper": 0.2985387352059064
   },
   "feature_importance": {
     "phi_full": 0.22306297752358556,
