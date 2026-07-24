@@ -6,7 +6,13 @@
     "pages": 23,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "DeFi",
+    "words": 5480,
+    "name_mentions": 20,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "ADA",
@@ -24,7 +30,13 @@
     "pages": 75,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 41545,
+    "name_mentions": 140,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "API3",
@@ -33,7 +45,13 @@
     "pages": 40,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Oracle",
+    "words": 14055,
+    "name_mentions": 136,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "APT",
@@ -42,7 +60,13 @@
     "pages": 17,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 9902,
+    "name_mentions": 105,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "ARB",
@@ -51,7 +75,13 @@
     "pages": 16,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 2",
+    "words": 11062,
+    "name_mentions": 17,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "ATOM",
@@ -60,7 +90,13 @@
     "pages": 1,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 12515,
+    "name_mentions": 196,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "AVAX",
@@ -69,7 +105,13 @@
     "pages": 14,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 6551,
+    "name_mentions": 68,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "BAND",
@@ -78,7 +120,13 @@
     "pages": 1,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Oracle",
+    "words": 623,
+    "name_mentions": 11,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "SHORT"
   },
   {
     "symbol": "BTC",
@@ -87,7 +135,13 @@
     "pages": 9,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 3568,
+    "name_mentions": 2,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "WRONG-DOC?"
   },
   {
     "symbol": "COMP",
@@ -96,7 +150,13 @@
     "pages": 8,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "DeFi",
+    "words": 2664,
+    "name_mentions": 29,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "CRV",
@@ -105,7 +165,13 @@
     "pages": 6,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "DeFi",
+    "words": 1488,
+    "name_mentions": 0,
+    "binance_mentions": 1,
+    "in_analyzed_37": true,
+    "flag": "WRONG-DOC?"
   },
   {
     "symbol": "DOT",
@@ -114,7 +180,13 @@
     "pages": 21,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 19638,
+    "name_mentions": 108,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "EGLD",
@@ -123,7 +195,13 @@
     "pages": 19,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 13977,
+    "name_mentions": 78,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "ENJ",
@@ -132,7 +210,13 @@
     "pages": 34,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Gaming",
+    "words": 6586,
+    "name_mentions": 203,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "ETH",
@@ -141,7 +225,13 @@
     "pages": 36,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 13817,
+    "name_mentions": 107,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "FIL",
@@ -150,7 +240,13 @@
     "pages": 36,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Infrastructure",
+    "words": 16603,
+    "name_mentions": 123,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "FTM",
@@ -159,7 +255,13 @@
     "pages": 50,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 12239,
+    "name_mentions": 211,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "GRT",
@@ -168,7 +270,13 @@
     "pages": 12,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Infrastructure",
+    "words": 3339,
+    "name_mentions": 23,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "HBAR",
@@ -177,7 +285,13 @@
     "pages": 1,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 4404,
+    "name_mentions": 62,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "ICP",
@@ -186,7 +300,13 @@
     "pages": 45,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 20311,
+    "name_mentions": 12,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "IMX",
@@ -195,7 +315,13 @@
     "pages": 17,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 2",
+    "words": 6973,
+    "name_mentions": 72,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "LDO",
@@ -204,7 +330,13 @@
     "pages": 6,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Staking",
+    "words": 3151,
+    "name_mentions": 85,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "LINK",
@@ -213,7 +345,13 @@
     "pages": 38,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Oracle",
+    "words": 13807,
+    "name_mentions": 131,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "LPT",
@@ -222,7 +360,13 @@
     "pages": 1,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Infrastructure",
+    "words": 9462,
+    "name_mentions": 104,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "MANA",
@@ -231,7 +375,13 @@
     "pages": 15,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Gaming",
+    "words": 3809,
+    "name_mentions": 57,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "MKR",
@@ -240,7 +390,13 @@
     "pages": 21,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "DeFi",
+    "words": 6003,
+    "name_mentions": 222,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "NEAR",
@@ -249,7 +405,13 @@
     "pages": 45,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 18855,
+    "name_mentions": 413,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "OCEAN",
@@ -258,7 +420,13 @@
     "pages": 36,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Infrastructure",
+    "words": 14121,
+    "name_mentions": 525,
+    "binance_mentions": 3,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "OP",
@@ -267,7 +435,13 @@
     "pages": 28,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 2",
+    "words": 8319,
+    "name_mentions": 67,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "POL",
@@ -276,7 +450,13 @@
     "pages": 25,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 2",
+    "words": 6988,
+    "name_mentions": 128,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "RENDER",
@@ -285,7 +465,13 @@
     "pages": 10,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Infrastructure",
+    "words": 3723,
+    "name_mentions": 169,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "RPL",
@@ -294,7 +480,13 @@
     "pages": 34,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Staking",
+    "words": 101,
+    "name_mentions": 5,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "STUB"
   },
   {
     "symbol": "SAND",
@@ -303,7 +495,13 @@
     "pages": 44,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Gaming",
+    "words": 12323,
+    "name_mentions": 148,
+    "binance_mentions": 2,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "SC",
@@ -312,7 +510,13 @@
     "pages": 8,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Storage",
+    "words": 3826,
+    "name_mentions": 52,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "SNX",
@@ -321,7 +525,13 @@
     "pages": 32,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "DeFi",
+    "words": 9562,
+    "name_mentions": 190,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "SOL",
@@ -330,7 +540,13 @@
     "pages": 32,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 7663,
+    "name_mentions": 8,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "WRONG-DOC?"
   },
   {
     "symbol": "STORJ",
@@ -339,7 +555,13 @@
     "pages": 90,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Storage",
+    "words": 31726,
+    "name_mentions": 73,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "SUI",
@@ -348,7 +570,13 @@
     "pages": 11,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Layer 1",
+    "words": 10446,
+    "name_mentions": 75,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "TRB",
@@ -357,7 +585,13 @@
     "pages": 8,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Oracle",
+    "words": 2861,
+    "name_mentions": 44,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "UNI",
@@ -366,7 +600,13 @@
     "pages": 10,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "DeFi",
+    "words": 4964,
+    "name_mentions": 71,
+    "binance_mentions": 1,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "XMR",
@@ -375,7 +615,13 @@
     "pages": 20,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Privacy",
+    "words": 8118,
+    "name_mentions": 15,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   },
   {
     "symbol": "ZEC",
@@ -384,6 +630,12 @@
     "pages": 229,
     "download_date": "2026-06-20",
     "fallback_type": null,
-    "doc_type": "whitepaper"
+    "doc_type": "whitepaper",
+    "category": "Privacy",
+    "words": 120474,
+    "name_mentions": 383,
+    "binance_mentions": 0,
+    "in_analyzed_37": true,
+    "flag": "OK"
   }
 ]
