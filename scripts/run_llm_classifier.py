@@ -14,10 +14,41 @@ import os
 import sys
 from pathlib import Path
 
+import requests
+
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.nlp.llm_classifier import LLMClassifier
+
+
+def check_local_server(base_url: str) -> None:
+    """Verify the local LM Studio server is reachable before starting.
+
+    Fails loudly with instructions rather than erroring mid-classification.
+    """
+    models_url = base_url.rstrip("/") + "/models"
+    try:
+        resp = requests.get(models_url, timeout=5)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        print(f"ERROR: Cannot reach local LLM server at {base_url}")
+        print(f"       ({type(e).__name__}: {e})")
+        print()
+        print("The 'local' provider requires a running LM Studio server:")
+        print("  1. Start LM Studio and load a model (the paper used Ministral-3 3B)")
+        print("  2. Enable the local server (Developer tab) on port 1234")
+        print("  3. Re-run this script (or pass --base-url if the server is elsewhere)")
+        print()
+        print("Alternatively use a hosted provider:")
+        print("  python scripts/run_llm_classifier.py --provider openai --api-key sk-...")
+        print("  python scripts/run_llm_classifier.py --provider anthropic --api-key sk-ant-...")
+        sys.exit(1)
+    models = resp.json().get("data", [])
+    if not models:
+        print(f"ERROR: Local LLM server at {base_url} is running but has no model loaded.")
+        print("       Load a model in LM Studio, then re-run this script.")
+        sys.exit(1)
 
 
 def main():
@@ -82,6 +113,9 @@ def main():
             print(f"ERROR: No API key found for {args.provider}")
             print(f"Set {args.provider.upper()}_API_KEY environment variable or use --api-key")
             sys.exit(1)
+
+    if args.provider == "local":
+        check_local_server(args.base_url)
 
     print(f"Provider: {args.provider}")
     print(f"Model: {args.model or 'default'}")
