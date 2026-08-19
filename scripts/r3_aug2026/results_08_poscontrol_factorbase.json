@@ -1,0 +1,418 @@
+{
+  "config": {
+    "reps": 500,
+    "perms": 200,
+    "grid": [
+      0.2,
+      0.3,
+      0.5,
+      0.65,
+      0.8
+    ],
+    "seed": 20260627
+  },
+  "published_carrier_diagnostics": {
+    "btc_z_on_factor1": 6.469409623410101,
+    "btc_z_on_factor2": -0.24039321090251192,
+    "factor1_share_of_squared_norm_from_btc": 0.9811240280718462,
+    "corr_f1_f2": -0.041472263375722455,
+    "excess_kurtosis": [
+      37.737876843030016,
+      28.49723365966205
+    ]
+  },
+  "bases": {
+    "published": {
+      "n": 43,
+      "scenarios": {
+        "ideal_1.0": {
+          "reliability": 1.0,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 1.0,
+              "power": 0.318,
+              "power_se": 0.020826713614970557,
+              "mean_recovered_phi_pipeline": 0.04685825172894586,
+              "mean_recovered_phi_factor_cols": 0.23429125864472927
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 1.0,
+              "power": 0.626,
+              "power_se": 0.021639038795658184,
+              "mean_recovered_phi_pipeline": 0.06125270977230621,
+              "mean_recovered_phi_factor_cols": 0.3062635488615309
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 1.0,
+              "power": 0.99,
+              "power_se": 0.0044497190922574,
+              "mean_recovered_phi_pipeline": 0.10018749222212943,
+              "mean_recovered_phi_factor_cols": 0.5009374611106471
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi_pipeline": 0.13118127307488062,
+              "mean_recovered_phi_factor_cols": 0.655906365374403
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi_pipeline": 0.1612731322134743,
+              "mean_recovered_phi_factor_cols": 0.8063656610673715
+            }
+          ],
+          "mde_power80": 0.39560439560439564
+        },
+        "rho_0.314": {
+          "reliability": 0.314,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.314,
+              "power": 0.104,
+              "power_se": 0.013651666564928987,
+              "mean_recovered_phi_pipeline": 0.03550915381087067,
+              "mean_recovered_phi_factor_cols": 0.1775457690543534
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.314,
+              "power": 0.214,
+              "power_se": 0.01834142851579451,
+              "mean_recovered_phi_pipeline": 0.04113696410392674,
+              "mean_recovered_phi_factor_cols": 0.20568482051963372
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.314,
+              "power": 0.504,
+              "power_se": 0.022359964221796064,
+              "mean_recovered_phi_pipeline": 0.05666127446384259,
+              "mean_recovered_phi_factor_cols": 0.2833063723192129
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.314,
+              "power": 0.776,
+              "power_se": 0.018645321128905233,
+              "mean_recovered_phi_pipeline": 0.07015425702598625,
+              "mean_recovered_phi_factor_cols": 0.3507712851299312
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.314,
+              "power": 0.958,
+              "power_se": 0.00897061870775924,
+              "mean_recovered_phi_pipeline": 0.08952319804019714,
+              "mean_recovered_phi_factor_cols": 0.4476159902009856
+            }
+          ],
+          "mde_power80": 0.6697802197802198
+        }
+      },
+      "seconds": 84.0
+    },
+    "no_btc": {
+      "n": 42,
+      "scenarios": {
+        "ideal_1.0": {
+          "reliability": 1.0,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 1.0,
+              "power": 0.254,
+              "power_se": 0.019467100451787882,
+              "mean_recovered_phi_pipeline": 0.04324360143332658,
+              "mean_recovered_phi_factor_cols": 0.2162180071666329
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 1.0,
+              "power": 0.61,
+              "power_se": 0.02181284025522582,
+              "mean_recovered_phi_pipeline": 0.060312538045522376,
+              "mean_recovered_phi_factor_cols": 0.3015626902276119
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 1.0,
+              "power": 0.996,
+              "power_se": 0.002822764602300377,
+              "mean_recovered_phi_pipeline": 0.10023521278102428,
+              "mean_recovered_phi_factor_cols": 0.5011760639051214
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi_pipeline": 0.1303997764575729,
+              "mean_recovered_phi_factor_cols": 0.6519988822878645
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi_pipeline": 0.16075597566203384,
+              "mean_recovered_phi_factor_cols": 0.8037798783101694
+            }
+          ],
+          "mde_power80": 0.3984455958549223
+        },
+        "rho_0.314": {
+          "reliability": 0.314,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.314,
+              "power": 0.086,
+              "power_se": 0.012538261442480771,
+              "mean_recovered_phi_pipeline": 0.034283923902951506,
+              "mean_recovered_phi_factor_cols": 0.17141961951475754
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.314,
+              "power": 0.184,
+              "power_se": 0.017328819925199752,
+              "mean_recovered_phi_pipeline": 0.040748887458507764,
+              "mean_recovered_phi_factor_cols": 0.20374443729253883
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.314,
+              "power": 0.52,
+              "power_se": 0.022342784070030305,
+              "mean_recovered_phi_pipeline": 0.05739366355665712,
+              "mean_recovered_phi_factor_cols": 0.28696831778328563
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.314,
+              "power": 0.83,
+              "power_se": 0.016798809481626965,
+              "mean_recovered_phi_pipeline": 0.07269670412331858,
+              "mean_recovered_phi_factor_cols": 0.36348352061659295
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.314,
+              "power": 0.956,
+              "power_se": 0.009172131704244116,
+              "mean_recovered_phi_pipeline": 0.08886368221199561,
+              "mean_recovered_phi_factor_cols": 0.4443184110599781
+            }
+          ],
+          "mde_power80": 0.635483870967742
+        }
+      },
+      "seconds": 82.2
+    },
+    "winsor05": {
+      "n": 43,
+      "scenarios": {
+        "ideal_1.0": {
+          "reliability": 1.0,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 1.0,
+              "power": 0.274,
+              "power_se": 0.01994612744369192,
+              "mean_recovered_phi_pipeline": 0.048727845053188515,
+              "mean_recovered_phi_factor_cols": 0.24363922526594262
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 1.0,
+              "power": 0.658,
+              "power_se": 0.021214900423994452,
+              "mean_recovered_phi_pipeline": 0.0650001206858349,
+              "mean_recovered_phi_factor_cols": 0.3250006034291745
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 1.0,
+              "power": 0.99,
+              "power_se": 0.0044497190922574,
+              "mean_recovered_phi_pipeline": 0.1015163293156285,
+              "mean_recovered_phi_factor_cols": 0.5075816465781424
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi_pipeline": 0.13168111236963348,
+              "mean_recovered_phi_factor_cols": 0.6584055618481673
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi_pipeline": 0.1616303114983,
+              "mean_recovered_phi_factor_cols": 0.8081515574915001
+            }
+          ],
+          "mde_power80": 0.3855421686746988
+        },
+        "rho_0.314": {
+          "reliability": 0.314,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.314,
+              "power": 0.09,
+              "power_se": 0.012798437404620925,
+              "mean_recovered_phi_pipeline": 0.039048568749671074,
+              "mean_recovered_phi_factor_cols": 0.1952428437483554
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.314,
+              "power": 0.188,
+              "power_se": 0.01747317944737019,
+              "mean_recovered_phi_pipeline": 0.04544163385286151,
+              "mean_recovered_phi_factor_cols": 0.22720816926430756
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.314,
+              "power": 0.526,
+              "power_se": 0.022330427671677047,
+              "mean_recovered_phi_pipeline": 0.05971071057243123,
+              "mean_recovered_phi_factor_cols": 0.29855355286215607
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.314,
+              "power": 0.756,
+              "power_se": 0.019207498535728174,
+              "mean_recovered_phi_pipeline": 0.07200550534619178,
+              "mean_recovered_phi_factor_cols": 0.36002752673095895
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.314,
+              "power": 0.966,
+              "power_se": 0.008104813384649892,
+              "mean_recovered_phi_pipeline": 0.09057273569142393,
+              "mean_recovered_phi_factor_cols": 0.45286367845711967
+            }
+          ],
+          "mde_power80": 0.6814285714285715
+        }
+      },
+      "seconds": 81.3
+    },
+    "rank_inv_normal": {
+      "n": 43,
+      "scenarios": {
+        "ideal_1.0": {
+          "reliability": 1.0,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 1.0,
+              "power": 0.286,
+              "power_se": 0.020209106858047932,
+              "mean_recovered_phi_pipeline": 0.04921041495916102,
+              "mean_recovered_phi_factor_cols": 0.2460520747958051
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 1.0,
+              "power": 0.62,
+              "power_se": 0.021707141681944216,
+              "mean_recovered_phi_pipeline": 0.06506019741543531,
+              "mean_recovered_phi_factor_cols": 0.3253009870771765
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 1.0,
+              "power": 0.992,
+              "power_se": 0.003983967871356396,
+              "mean_recovered_phi_pipeline": 0.10195495634831409,
+              "mean_recovered_phi_factor_cols": 0.5097747817415704
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi_pipeline": 0.13157719641227145,
+              "mean_recovered_phi_factor_cols": 0.6578859820613573
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi_pipeline": 0.1613472791641306,
+              "mean_recovered_phi_factor_cols": 0.8067363958206532
+            }
+          ],
+          "mde_power80": 0.3967741935483871
+        },
+        "rho_0.314": {
+          "reliability": 0.314,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.314,
+              "power": 0.124,
+              "power_se": 0.014739335127474372,
+              "mean_recovered_phi_pipeline": 0.04044039111898141,
+              "mean_recovered_phi_factor_cols": 0.20220195559490706
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.314,
+              "power": 0.188,
+              "power_se": 0.01747317944737019,
+              "mean_recovered_phi_pipeline": 0.04553020270422419,
+              "mean_recovered_phi_factor_cols": 0.22765101352112097
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.314,
+              "power": 0.516,
+              "power_se": 0.022349228174592516,
+              "mean_recovered_phi_pipeline": 0.06021235364208684,
+              "mean_recovered_phi_factor_cols": 0.3010617682104342
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.314,
+              "power": 0.762,
+              "power_se": 0.01904499934365974,
+              "mean_recovered_phi_pipeline": 0.07274065148843349,
+              "mean_recovered_phi_factor_cols": 0.36370325744216736
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.314,
+              "power": 0.976,
+              "power_se": 0.006844559883586383,
+              "mean_recovered_phi_pipeline": 0.09199852821857289,
+              "mean_recovered_phi_factor_cols": 0.4599926410928645
+            }
+          ],
+          "mde_power80": 0.6766355140186916
+        }
+      },
+      "seconds": 82.2
+    }
+  }
+}

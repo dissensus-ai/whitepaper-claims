@@ -1,0 +1,16 @@
+{
+  "matched_claims_vs_stats": {
+    "phi_congmax": 0.3225461020708921,
+    "perm_p": 0.36,
+    "null_mean": 0.3109486518560627,
+    "null_q95": 0.3738557152663078,
+    "n_perm": 200
+  },
+  "informative_padded_claims_vs_stats": {
+    "phi_congmax": 0.4180539926951835,
+    "perm_p": 0.43,
+    "null_mean": 0.4098241320774531,
+    "null_q95": 0.475811460979189,
+    "n_perm": 200
+  }
+}

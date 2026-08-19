@@ -1,0 +1,63 @@
+{
+  "importance": [
+    {
+      "feature": "interoperability",
+      "phi_without": 0.19452162520913902,
+      "importance": 0.015338350033543002
+    },
+    {
+      "feature": "privacy",
+      "phi_without": 0.19856512972877377,
+      "importance": 0.011294845513908247
+    },
+    {
+      "feature": "scalability",
+      "phi_without": 0.2040903772449579,
+      "importance": 0.005769597997724113
+    },
+    {
+      "feature": "store_of_value",
+      "phi_without": 0.20439681972350005,
+      "importance": 0.0054631555191819725
+    },
+    {
+      "feature": "governance",
+      "phi_without": 0.2058196613250623,
+      "importance": 0.00404031391761972
+    },
+    {
+      "feature": "oracle",
+      "phi_without": 0.20784072030982612,
+      "importance": 0.0020192549328559017
+    },
+    {
+      "feature": "smart_contracts",
+      "phi_without": 0.20874302607131864,
+      "importance": 0.001116949171363374
+    },
+    {
+      "feature": "defi",
+      "phi_without": 0.20984865791335575,
+      "importance": 1.1317329326271386e-05
+    },
+    {
+      "feature": "medium_of_exchange",
+      "phi_without": 0.21308528193704862,
+      "importance": -0.003225306694366603
+    },
+    {
+      "feature": "data_storage",
+      "phi_without": 0.21659361483090742,
+      "importance": -0.0067336395882253985
+    }
+  ],
+  "phi_full": 0.20985997524268202,
+  "most_important": [
+    "interoperability",
+    "privacy",
+    "scalability"
+  ],
+  "n": 43,
+  "volume_basis": "usd_close",
+  "note": "Per-category ablation on the primary USD-notional turnover specification (sum of volume x close per bar, aggregated to daily). Supersedes the base-asset-unit build."
+}

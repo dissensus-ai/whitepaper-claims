@@ -1,0 +1,640 @@
+{
+  "config": {
+    "reps": 500,
+    "perms": 200,
+    "grid": [
+      0.2,
+      0.3,
+      0.5,
+      0.65,
+      0.8
+    ],
+    "seed": 20260627
+  },
+  "bases": {
+    "published": {
+      "n": 43,
+      "diagnostics": {
+        "name": "published",
+        "shape": [
+          43,
+          7
+        ],
+        "max_abs_z_per_col": [
+          3.067583816198092,
+          2.8999276237185105,
+          3.1990832104072946,
+          3.184477438321903,
+          2.160933362240427,
+          2.137658757277733,
+          3.104145051461873
+        ],
+        "excess_kurtosis_per_col": [
+          0.6469502895367518,
+          1.3587642456353235,
+          1.4250007683651917,
+          0.850156748337735,
+          -0.5151188576468719,
+          -0.5611563966519526,
+          0.506510703921975
+        ],
+        "max_leverage_row": 9,
+        "max_leverage_symbol": "BTC"
+      },
+      "scenarios": {
+        "ideal_1.0": {
+          "reliability": 1.0,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 1.0,
+              "power": 0.436,
+              "power_se": 0.02217674457624473,
+              "mean_recovered_phi": 0.3604359873715402
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 1.0,
+              "power": 0.834,
+              "power_se": 0.016639951923007473,
+              "mean_recovered_phi": 0.4131211452235865
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5630086708923298
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.688871812943173
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.8210094146742394
+            }
+          ],
+          "mde_power80": 0.29145728643216084
+        },
+        "rho_0.50": {
+          "reliability": 0.5,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.5,
+              "power": 0.13,
+              "power_se": 0.015039946808416579,
+              "mean_recovered_phi": 0.32952153735022455
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.5,
+              "power": 0.416,
+              "power_se": 0.02204286732709699,
+              "mean_recovered_phi": 0.3589798341950454
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.5,
+              "power": 0.96,
+              "power_se": 0.008763560920082661,
+              "mean_recovered_phi": 0.4413647420572017
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.5,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5176928593507286
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.5,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.6046639438859827
+            }
+          ],
+          "mde_power80": 0.4411764705882353
+        },
+        "rho_0.314": {
+          "reliability": 0.314,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.314,
+              "power": 0.1,
+              "power_se": 0.01341640786499874,
+              "mean_recovered_phi": 0.3188852776198178
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.314,
+              "power": 0.214,
+              "power_se": 0.01834142851579451,
+              "mean_recovered_phi": 0.33605479130646543
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.314,
+              "power": 0.76,
+              "power_se": 0.019099738218101316,
+              "mean_recovered_phi": 0.39614990505701014
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.314,
+              "power": 0.984,
+              "power_se": 0.00561141693336006,
+              "mean_recovered_phi": 0.45087549098503077
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.314,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.510702576135425
+            }
+          ],
+          "mde_power80": 0.5267857142857143
+        }
+      },
+      "seconds": 59.2
+    },
+    "no_btc": {
+      "n": 42,
+      "diagnostics": {
+        "name": "no_btc",
+        "shape": [
+          42,
+          7
+        ],
+        "max_abs_z_per_col": [
+          3.067583816198092,
+          2.8999276237185105,
+          2.876891067374545,
+          2.3708163120918497,
+          2.160933362240427,
+          2.137658757277733,
+          3.104145051461873
+        ],
+        "excess_kurtosis_per_col": [
+          0.7998448911836649,
+          1.3589133383679988,
+          1.0377431395934247,
+          0.3874003065472955,
+          -0.35573889404203474,
+          -0.41765118828758174,
+          0.5890034641663502
+        ],
+        "max_leverage_row": 35,
+        "max_leverage_symbol": "SOL"
+      },
+      "scenarios": {
+        "ideal_1.0": {
+          "reliability": 1.0,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 1.0,
+              "power": 0.372,
+              "power_se": 0.021615549958305478,
+              "mean_recovered_phi": 0.356981777415814
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 1.0,
+              "power": 0.84,
+              "power_se": 0.01639512122553536,
+              "mean_recovered_phi": 0.41492267229938806
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5625774551603708
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.6882883638732976
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.8213678313820415
+            }
+          ],
+          "mde_power80": 0.2914529914529915
+        },
+        "rho_0.50": {
+          "reliability": 0.5,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.5,
+              "power": 0.172,
+              "power_se": 0.0168769665520792,
+              "mean_recovered_phi": 0.3322684578201038
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.5,
+              "power": 0.386,
+              "power_se": 0.0217717247823869,
+              "mean_recovered_phi": 0.35892585544529537
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.5,
+              "power": 0.962,
+              "power_se": 0.008550555537507495,
+              "mean_recovered_phi": 0.4415867804184485
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.5,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5213707534309936
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.5,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.6050415159041616
+            }
+          ],
+          "mde_power80": 0.44375000000000003
+        },
+        "rho_0.314": {
+          "reliability": 0.314,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.314,
+              "power": 0.122,
+              "power_se": 0.014636666287102402,
+              "mean_recovered_phi": 0.32364243086622846
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.314,
+              "power": 0.254,
+              "power_se": 0.019467100451787882,
+              "mean_recovered_phi": 0.3424054382918169
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.314,
+              "power": 0.758,
+              "power_se": 0.019153902996517445,
+              "mean_recovered_phi": 0.40115876707375775
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.314,
+              "power": 0.98,
+              "power_se": 0.006260990336999414,
+              "mean_recovered_phi": 0.45211812839078613
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.314,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5129374797881554
+            }
+          ],
+          "mde_power80": 0.5283783783783784
+        }
+      },
+      "seconds": 59.9
+    },
+    "winsor05": {
+      "n": 43,
+      "diagnostics": {
+        "name": "winsor05",
+        "shape": [
+          43,
+          7
+        ],
+        "max_abs_z_per_col": [
+          1.6119322716424977,
+          1.8692076202135526,
+          1.6434806364079777,
+          2.1431646307801047,
+          1.443901503461219,
+          1.9046912185833544,
+          1.912223070552916
+        ],
+        "excess_kurtosis_per_col": [
+          -0.7709661309637257,
+          -0.28151259889255,
+          -0.537971945749717,
+          -0.0031153023511865108,
+          -0.9680058519614372,
+          -0.6615579846241526,
+          -0.6937767301612894
+        ],
+        "max_leverage_row": 9,
+        "max_leverage_symbol": "BTC"
+      },
+      "scenarios": {
+        "ideal_1.0": {
+          "reliability": 1.0,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 1.0,
+              "power": 0.416,
+              "power_se": 0.02204286732709699,
+              "mean_recovered_phi": 0.3596953337653184
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 1.0,
+              "power": 0.85,
+              "power_se": 0.015968719422671314,
+              "mean_recovered_phi": 0.41187639184146724
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5615251307257825
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.688285737579865
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.820755230137677
+            }
+          ],
+          "mde_power80": 0.28847926267281104
+        },
+        "rho_0.50": {
+          "reliability": 0.5,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.5,
+              "power": 0.144,
+              "power_se": 0.01570121014444428,
+              "mean_recovered_phi": 0.3291443051156547
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.5,
+              "power": 0.408,
+              "power_se": 0.021978898971513564,
+              "mean_recovered_phi": 0.3583383104824161
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.5,
+              "power": 0.968,
+              "power_se": 0.007870959280799264,
+              "mean_recovered_phi": 0.44081676918572094
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.5,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5165742660061894
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.5,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.6034466811638537
+            }
+          ],
+          "mde_power80": 0.44000000000000006
+        },
+        "rho_0.314": {
+          "reliability": 0.314,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.314,
+              "power": 0.106,
+              "power_se": 0.013766916866168693,
+              "mean_recovered_phi": 0.31823833882900443
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.314,
+              "power": 0.22,
+              "power_se": 0.018525657883055057,
+              "mean_recovered_phi": 0.33454403516062314
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.314,
+              "power": 0.738,
+              "power_se": 0.01966499427917537,
+              "mean_recovered_phi": 0.3942305162406214
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.314,
+              "power": 0.988,
+              "power_se": 0.004869496893930627,
+              "mean_recovered_phi": 0.4493898790470998
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.314,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5099344378056688
+            }
+          ],
+          "mde_power80": 0.5372
+        }
+      },
+      "seconds": 58.4
+    },
+    "rank_inv_normal": {
+      "n": 43,
+      "diagnostics": {
+        "name": "rank_inv_normal",
+        "shape": [
+          43,
+          7
+        ],
+        "max_abs_z_per_col": [
+          2.269205796284963,
+          2.269205796284963,
+          2.269205796284963,
+          2.269205796284963,
+          2.269205796284963,
+          2.269205796284963,
+          2.269205796284963
+        ],
+        "excess_kurtosis_per_col": [
+          -0.3000503295898298,
+          -0.3000503295898289,
+          -0.3000503295898289,
+          -0.30005032958982936,
+          -0.3000503295898276,
+          -0.3000503295898289,
+          -0.30005032958982625
+        ],
+        "max_leverage_row": 32,
+        "max_leverage_symbol": "RPL"
+      },
+      "scenarios": {
+        "ideal_1.0": {
+          "reliability": 1.0,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 1.0,
+              "power": 0.426,
+              "power_se": 0.02211442967837968,
+              "mean_recovered_phi": 0.3599831953246612
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 1.0,
+              "power": 0.854,
+              "power_se": 0.015791390059142988,
+              "mean_recovered_phi": 0.41271247202066347
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5624908931165258
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.6886883880963633
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 1.0,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.8209423129816685
+            }
+          ],
+          "mde_power80": 0.28738317757009346
+        },
+        "rho_0.50": {
+          "reliability": 0.5,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.5,
+              "power": 0.148,
+              "power_se": 0.015880554146502572,
+              "mean_recovered_phi": 0.3289574056670411
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.5,
+              "power": 0.41,
+              "power_se": 0.02199545407578575,
+              "mean_recovered_phi": 0.3584273707816761
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.5,
+              "power": 0.96,
+              "power_se": 0.008763560920082661,
+              "mean_recovered_phi": 0.4413755946956987
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.5,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5181629067591564
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.5,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.6040870204774735
+            }
+          ],
+          "mde_power80": 0.44181818181818183
+        },
+        "rho_0.314": {
+          "reliability": 0.314,
+          "cells": [
+            {
+              "true_phi": 0.2,
+              "reliability": 0.314,
+              "power": 0.11,
+              "power_se": 0.013992855319769442,
+              "mean_recovered_phi": 0.3184341949586792
+            },
+            {
+              "true_phi": 0.3,
+              "reliability": 0.314,
+              "power": 0.216,
+              "power_se": 0.01840347793217358,
+              "mean_recovered_phi": 0.33602374730351064
+            },
+            {
+              "true_phi": 0.5,
+              "reliability": 0.314,
+              "power": 0.752,
+              "power_se": 0.019313000802568203,
+              "mean_recovered_phi": 0.3960801708076252
+            },
+            {
+              "true_phi": 0.65,
+              "reliability": 0.314,
+              "power": 0.988,
+              "power_se": 0.004869496893930627,
+              "mean_recovered_phi": 0.4503469032249037
+            },
+            {
+              "true_phi": 0.8,
+              "reliability": 0.314,
+              "power": 1.0,
+              "power_se": 0.0,
+              "mean_recovered_phi": 0.5107408626087957
+            }
+          ],
+          "mde_power80": 0.5305084745762713
+        }
+      },
+      "seconds": 57.2
+    }
+  }
+}

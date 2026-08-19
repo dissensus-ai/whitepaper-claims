@@ -1,0 +1,164 @@
+{
+  "market_dir": "/home/purrpower/Resurrexi/projects/papers/papers-official/whitepaper-claims/code/data/market",
+  "n_parquet": 49,
+  "symbols_match": true,
+  "stats_max_abs_diff": 0.0,
+  "n_common": 43,
+  "common": [
+    "AAVE",
+    "ADA",
+    "ALGO",
+    "API3",
+    "APT",
+    "ARB",
+    "ATOM",
+    "AVAX",
+    "BAND",
+    "BTC",
+    "COMP",
+    "CRV",
+    "DOT",
+    "EGLD",
+    "ENJ",
+    "ETH",
+    "FIL",
+    "FTM",
+    "GRT",
+    "HBAR",
+    "ICP",
+    "IMX",
+    "LDO",
+    "LINK",
+    "LPT",
+    "MANA",
+    "MKR",
+    "NEAR",
+    "OCEAN",
+    "OP",
+    "POL",
+    "RENDER",
+    "RPL",
+    "SAND",
+    "SC",
+    "SNX",
+    "SOL",
+    "STORJ",
+    "SUI",
+    "TRB",
+    "UNI",
+    "XMR",
+    "ZEC"
+  ],
+  "alignment": {
+    "claims_vs_stats": {
+      "padded_phi": 0.22306297752358556,
+      "padded_p": 0.433,
+      "padded_columns": [
+        0.2573054695044901,
+        0.45316088311282754,
+        0.30860990588864473,
+        0.2859623051105317,
+        0.3260024423502228,
+        0.3385070850240518,
+        0.2610816842450868,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matched_phi": 0.30314575979127933,
+      "matched_p": 0.365,
+      "matched_target_dim": 7
+    },
+    "claims_vs_factors": {
+      "padded_phi": 0.06179739688971887,
+      "padded_p": 0.439,
+      "padded_columns": [
+        0.37752798926253867,
+        0.24044597963465006,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matched_phi": 0.20687316518002924,
+      "matched_p": 0.284,
+      "matched_target_dim": 2
+    },
+    "stats_vs_factors": {
+      "padded_phi": 0.16915390584350412,
+      "padded_p": 0.001,
+      "padded_columns": [
+        0.6164724345875395,
+        0.5676049063169892,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matched_phi": 0.36018487071086325,
+      "matched_p": 0.011,
+      "matched_target_dim": 2
+    }
+  },
+  "alt_metrics": {
+    "claims_vs_stats": {
+      "rv": {
+        "value": 0.0708310837578688,
+        "p_value": 0.588
+      },
+      "dcor": {
+        "value": 0.5014878631418183,
+        "p_value": 0.708
+      },
+      "cca": {
+        "value": 0.4309718917154027,
+        "p_value": 0.309
+      },
+      "pls": {
+        "value": 0.3544058757098549,
+        "p_value": 0.323
+      }
+    },
+    "claims_vs_factors": {
+      "rv": {
+        "value": 0.04999950500488042,
+        "p_value": 0.323
+      },
+      "dcor": {
+        "value": 0.366814053647851,
+        "p_value": 0.254
+      },
+      "cca": {
+        "value": 0.4106215181834041,
+        "p_value": 0.584
+      },
+      "pls": {
+        "value": 0.36638186649649546,
+        "p_value": 0.499
+      }
+    },
+    "stats_vs_factors": {
+      "rv": {
+        "value": 0.22850691608107523,
+        "p_value": 0.0
+      },
+      "dcor": {
+        "value": 0.5264055386112261,
+        "p_value": 0.002
+      },
+      "cca": {
+        "value": 0.8042171996638435,
+        "p_value": 0.0
+      },
+      "pls": {
+        "value": 0.6071257583434719,
+        "p_value": 0.001
+      }
+    }
+  }
+}

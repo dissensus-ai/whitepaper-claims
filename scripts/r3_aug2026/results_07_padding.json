@@ -1,0 +1,65 @@
+{
+  "n": 43,
+  "pairs": {
+    "claims_vs_stats": {
+      "source_cols": 10,
+      "target_cols": 7,
+      "padded_matrix": "target (B)",
+      "n_informative_cols": 7,
+      "n_total_slots": 10,
+      "headline_padded_phi": 0.22306297752358556,
+      "informative_col_mean_abs_phi": 0.31866139646226516,
+      "predicted_padded = inf_mean * k/D": 0.2230629775235856,
+      "exact_match": true,
+      "deflation_factor_k_over_D": 0.7,
+      "padded_phi_arguments_swapped": 0.3101242763494353,
+      "informative_mean_arguments_swapped": 0.3101242763494353,
+      "perm_p_padded": 0.433
+    },
+    "claims_vs_factors": {
+      "source_cols": 10,
+      "target_cols": 2,
+      "padded_matrix": "target (B)",
+      "n_informative_cols": 2,
+      "n_total_slots": 10,
+      "headline_padded_phi": 0.06179739688971887,
+      "informative_col_mean_abs_phi": 0.30898698444859446,
+      "predicted_padded = inf_mean * k/D": 0.06179739688971889,
+      "exact_match": true,
+      "deflation_factor_k_over_D": 0.2,
+      "padded_phi_arguments_swapped": 0.17872536880872525,
+      "informative_mean_arguments_swapped": 0.17872536880872525,
+      "perm_p_padded": 0.439
+    },
+    "stats_vs_factors": {
+      "source_cols": 7,
+      "target_cols": 2,
+      "padded_matrix": "target (B)",
+      "n_informative_cols": 2,
+      "n_total_slots": 7,
+      "headline_padded_phi": 0.16915390584350412,
+      "informative_col_mean_abs_phi": 0.5920386704522644,
+      "predicted_padded = inf_mean * k/D": 0.16915390584350412,
+      "exact_match": true,
+      "deflation_factor_k_over_D": 0.2857142857142857,
+      "padded_phi_arguments_swapped": 0.3797711831177567,
+      "informative_mean_arguments_swapped": 0.37977118311775665,
+      "perm_p_padded": 0.001
+    }
+  },
+  "p_value_invariance": {
+    "p_padded": 0.433,
+    "p_informative": 0.433,
+    "identical": true
+  },
+  "scale_audit": {
+    "congruence_py_deflated_claims_stats": 0.22306297752358556,
+    "skipzeros_signed_claims_stats (reviewer3/stability scale)": 0.31866139646226516,
+    "matched_dimension_claims_stats": 0.30314575979127933,
+    "cross_sectional_phi_full_published": 0.22306297752358556,
+    "reviewer3_partial_published": 0.2579116284611998,
+    "reviewer3_raw_published": 0.31866139646226516,
+    "stability_jackknife_published_n": 37,
+    "stability_jackknife_published_phi_full": 0.29135650049182155
+  }
+}

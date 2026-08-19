@@ -1,0 +1,156 @@
+{
+  "feature_importance_3dp": {
+    "interoperability": 0.015,
+    "privacy": 0.011,
+    "scalability": 0.006,
+    "store_of_value": 0.005,
+    "governance": 0.004,
+    "oracle": 0.002,
+    "smart_contracts": 0.001,
+    "defi": 0.0,
+    "medium_of_exchange": -0.003,
+    "data_storage": -0.007
+  },
+  "feature_importance_max_abs": 0.015338350033543002,
+  "n_clean": 43,
+  "entity_top4": [
+    [
+      "SOL",
+      0.012
+    ],
+    [
+      "TRB",
+      0.011
+    ],
+    [
+      "SUI",
+      0.009
+    ],
+    [
+      "RENDER",
+      0.009
+    ]
+  ],
+  "entity_bottom4": [
+    [
+      "SC",
+      -0.012
+    ],
+    [
+      "POL",
+      -0.017
+    ],
+    [
+      "STORJ",
+      -0.017
+    ],
+    [
+      "LINK",
+      -0.018
+    ]
+  ],
+  "entity_max_abs": 0.01789431374840955,
+  "entity_n_below_0.01": 37,
+  "btc_loo": 0.004870779035413636,
+  "clean_helpers_gt_0.01": [
+    "SOL",
+    "TRB"
+  ],
+  "clean_hurters_lt_-0.01": [
+    "SC",
+    "POL",
+    "STORJ",
+    "LINK"
+  ],
+  "phi_full_clean": 0.20985997524268202,
+  "n_contaminated": 37,
+  "contaminated_volume_basis": "base",
+  "phi_full_contaminated": 0.24573765481201018,
+  "contaminated_helpers": [
+    "XMR",
+    "CRV",
+    "YFI",
+    "SOL"
+  ],
+  "contaminated_hurters": [
+    "SUSHI",
+    "AAVE",
+    "HBAR",
+    "RPL"
+  ],
+  "contaminated_top5": [
+    [
+      "XMR",
+      0.02
+    ],
+    [
+      "CRV",
+      0.0133
+    ],
+    [
+      "YFI",
+      0.0122
+    ],
+    [
+      "SOL",
+      0.0104
+    ],
+    [
+      "SUI",
+      0.0081
+    ]
+  ],
+  "failures": [],
+  "contaminated_usd_counterfactual": {
+    "why_not_rendered": "Recomputing the superseded contaminated corpus on USD notional collapses the helper set from four to one and flips YFI's sign, contradicting the figure caption, the Results paragraph on the four apparent helpers, and the Discussion. The panel documents the earlier build and is retained on that build's basis.",
+    "phi_full": 0.1995337956063355,
+    "helpers": [
+      "XMR"
+    ],
+    "hurters": [
+      "API3",
+      "LDO",
+      "AAVE",
+      "MKR",
+      "SUSHI",
+      "SC",
+      "HBAR",
+      "BTC",
+      "RPL"
+    ],
+    "key_symbols_base_vs_usd": {
+      "XMR": {
+        "base": 0.02,
+        "usd": 0.0195
+      },
+      "CRV": {
+        "base": 0.0133,
+        "usd": 0.0072
+      },
+      "YFI": {
+        "base": 0.0122,
+        "usd": -0.005
+      },
+      "SOL": {
+        "base": 0.0104,
+        "usd": 0.0059
+      },
+      "SUI": {
+        "base": 0.0081,
+        "usd": 0.0074
+      },
+      "BTC": {
+        "base": -0.0035,
+        "usd": -0.0171
+      },
+      "RPL": {
+        "base": -0.0179,
+        "usd": -0.0194
+      },
+      "HBAR": {
+        "base": -0.0156,
+        "usd": -0.0166
+      }
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "base": {
+    "subsample_stability": {
+      "mean_phi": 0.254382305883943,
+      "std_phi": 0.022284720548144697,
+      "ci_lower": 0.21283177558928124,
+      "ci_upper": 0.2985387352059064
+    },
+    "feature_importance_max_abs": 0.014779086495137428,
+    "feature_importance": [
+      {
+        "feature": "interoperability",
+        "phi_without": 0.20828389102844813,
+        "importance": 0.014779086495137428
+      },
+      {
+        "feature": "medium_of_exchange",
+        "phi_without": 0.21084025105849472,
+        "importance": 0.012222726465090844
+      },
+      {
+        "feature": "privacy",
+        "phi_without": 0.21258476926952746,
+        "importance": 0.010478208254058097
+      },
+      {
+        "feature": "governance",
+        "phi_without": 0.21684404536943083,
+        "importance": 0.006218932154154727
+      },
+      {
+        "feature": "store_of_value",
+        "phi_without": 0.22038608129380083,
+        "importance": 0.002676896229784731
+      },
+      {
+        "feature": "oracle",
+        "phi_without": 0.22118051042389678,
+        "importance": 0.0018824670996887838
+      },
+      {
+        "feature": "defi",
+        "phi_without": 0.22201186797726363,
+        "importance": 0.0010511095463219267
+      },
+      {
+        "feature": "scalability",
+        "phi_without": 0.22378672571581087,
+        "importance": -0.0007237481922253153
+      },
+      {
+        "feature": "smart_contracts",
+        "phi_without": 0.22426107059329592,
+        "importance": -0.0011980930697103598
+      },
+      {
+        "feature": "data_storage",
+        "phi_without": 0.22711097773058803,
+        "importance": -0.004048000207002467
+      }
+    ],
+    "no_btc": {
+      "n": 42,
+      "padded_phi": 0.2238139201914559,
+      "padded_p": 0.476,
+      "matched_phi": 0.30192623075671143,
+      "matched_p": 0.416
+    },
+    "temporal": {
+      "n_windows": 6,
+      "mean_phi": 0.16337526373984035,
+      "std_phi": 0.02828443578358133
+    }
+  },
+  "usd_close": {
+    "subsample_stability": {
+      "mean_phi": 0.23495604533259265,
+      "std_phi": 0.02220638140405979,
+      "ci_lower": 0.19509310170477612,
+      "ci_upper": 0.2835467273482651
+    },
+    "feature_importance_max_abs": 0.015338350033543002,
+    "feature_importance": [
+      {
+        "feature": "interoperability",
+        "phi_without": 0.19452162520913902,
+        "importance": 0.015338350033543002
+      },
+      {
+        "feature": "privacy",
+        "phi_without": 0.19856512972877377,
+        "importance": 0.011294845513908247
+      },
+      {
+        "feature": "scalability",
+        "phi_without": 0.2040903772449579,
+        "importance": 0.005769597997724113
+      },
+      {
+        "feature": "store_of_value",
+        "phi_without": 0.20439681972350005,
+        "importance": 0.0054631555191819725
+      },
+      {
+        "feature": "governance",
+        "phi_without": 0.2058196613250623,
+        "importance": 0.00404031391761972
+      },
+      {
+        "feature": "oracle",
+        "phi_without": 0.20784072030982612,
+        "importance": 0.0020192549328559017
+      },
+      {
+        "feature": "smart_contracts",
+        "phi_without": 0.20874302607131864,
+        "importance": 0.001116949171363374
+      },
+      {
+        "feature": "defi",
+        "phi_without": 0.20984865791335575,
+        "importance": 1.1317329326271386e-05
+      },
+      {
+        "feature": "medium_of_exchange",
+        "phi_without": 0.21308528193704862,
+        "importance": -0.003225306694366603
+      },
+      {
+        "feature": "data_storage",
+        "phi_without": 0.21659361483090742,
+        "importance": -0.0067336395882253985
+      }
+    ],
+    "no_btc": {
+      "n": 42,
+      "padded_phi": 0.20498919620726844,
+      "padded_p": 0.678,
+      "matched_phi": 0.2773878538347306,
+      "matched_p": 0.603
+    },
+    "temporal": {
+      "n_windows": 6,
+      "mean_phi": 0.1677636155983406,
+      "std_phi": 0.02461908182203003
+    }
+  },
+  "volume_ranking": {
+    "top10_base_units": [
+      "GALA",
+      "SC",
+      "HBAR",
+      "ADA",
+      "FTM",
+      "GRT",
+      "POL",
+      "ARB",
+      "SUI",
+      "ALGO"
+    ],
+    "bottom10_base_units": [
+      "TRB",
+      "EGLD",
+      "AAVE",
+      "ZEC",
+      "COMP",
+      "RPL",
+      "XMR",
+      "BTC",
+      "MKR",
+      "YFI"
+    ],
+    "top10_usd_notional": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "SUI",
+      "ARB",
+      "AVAX",
+      "ADA",
+      "LINK",
+      "NEAR",
+      "OP"
+    ],
+    "bottom10_usd_notional": [
+      "STORJ",
+      "COMP",
+      "API3",
+      "YFI",
+      "ZEC",
+      "ENJ",
+      "SC",
+      "LIT",
+      "BAND",
+      "RPL"
+    ],
+    "btc_rank_base": 47,
+    "btc_rank_usd": 1,
+    "eth_rank_base": 39,
+    "eth_rank_usd": 2
+  }
+}

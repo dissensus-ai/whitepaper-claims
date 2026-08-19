@@ -1,0 +1,243 @@
+{
+  "entities": [
+    {
+      "symbol": "XMR",
+      "phi_without": 0.22568765538220922,
+      "impact": 0.020049999429800958,
+      "interpretation": "helps"
+    },
+    {
+      "symbol": "CRV",
+      "phi_without": 0.2324368811478025,
+      "impact": 0.013300773664207677,
+      "interpretation": "helps"
+    },
+    {
+      "symbol": "YFI",
+      "phi_without": 0.233504524727622,
+      "impact": 0.012233130084388172,
+      "interpretation": "helps"
+    },
+    {
+      "symbol": "SOL",
+      "phi_without": 0.2353365997388735,
+      "impact": 0.010401055073136684,
+      "interpretation": "helps"
+    },
+    {
+      "symbol": "SUI",
+      "phi_without": 0.2376477974356283,
+      "impact": 0.008089857376381876,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "ATOM",
+      "phi_without": 0.24197106290700116,
+      "impact": 0.0037665919050090257,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "MANA",
+      "phi_without": 0.2431332577397975,
+      "impact": 0.0026043970722126886,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "NEAR",
+      "phi_without": 0.24333011062818316,
+      "impact": 0.0024075441838270206,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "ETH",
+      "phi_without": 0.24355645180028257,
+      "impact": 0.0021812030117276116,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "ICP",
+      "phi_without": 0.2436444431550635,
+      "impact": 0.002093211656946675,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "GRT",
+      "phi_without": 0.24515483926083514,
+      "impact": 0.0005828155511750366,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "SAND",
+      "phi_without": 0.2455656288287778,
+      "impact": 0.00017202598323237672,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "AXS",
+      "phi_without": 0.24607343601448922,
+      "impact": -0.00033578120247904075,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "API3",
+      "phi_without": 0.2464518444317983,
+      "impact": -0.0007141896197881137,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "ZEC",
+      "phi_without": 0.2466736313201136,
+      "impact": -0.0009359765081034255,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "AVAX",
+      "phi_without": 0.2467536936250016,
+      "impact": -0.001016038812991421,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "ADA",
+      "phi_without": 0.2469515174274412,
+      "impact": -0.0012138626154310217,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "ARB",
+      "phi_without": 0.24700323123053866,
+      "impact": -0.0012655764185284801,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "FIL",
+      "phi_without": 0.24739845374013086,
+      "impact": -0.0016607989281206825,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "DOT",
+      "phi_without": 0.2477799133526381,
+      "impact": -0.0020422585406279226,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "MKR",
+      "phi_without": 0.24834709922826326,
+      "impact": -0.002609444416253076,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "BAND",
+      "phi_without": 0.24840929589023958,
+      "impact": -0.0026716410782293976,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "APT",
+      "phi_without": 0.24852257528367475,
+      "impact": -0.002784920471664565,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "COMP",
+      "phi_without": 0.24860445433920408,
+      "impact": -0.002866799527193903,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "BTC",
+      "phi_without": 0.249229438594693,
+      "impact": -0.0034917837826828058,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "UNI",
+      "phi_without": 0.2495345237038432,
+      "impact": -0.003796868891833005,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "ALGO",
+      "phi_without": 0.25018025374030406,
+      "impact": -0.004442598928293878,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "LDO",
+      "phi_without": 0.25104096600026626,
+      "impact": -0.005303311188256082,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "STORJ",
+      "phi_without": 0.25185064916144234,
+      "impact": -0.00611299434943216,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "OCEAN",
+      "phi_without": 0.2532268139438544,
+      "impact": -0.0074891591318441975,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "SC",
+      "phi_without": 0.2534316830160864,
+      "impact": -0.007694028204076192,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "EGLD",
+      "phi_without": 0.25465561613593035,
+      "impact": -0.00891796132392017,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "LINK",
+      "phi_without": 0.2556344686815453,
+      "impact": -0.009896813869535143,
+      "interpretation": "neutral"
+    },
+    {
+      "symbol": "SUSHI",
+      "phi_without": 0.2569085451758248,
+      "impact": -0.011170890363814606,
+      "interpretation": "hurts"
+    },
+    {
+      "symbol": "AAVE",
+      "phi_without": 0.2569507530652847,
+      "impact": -0.011213098253274517,
+      "interpretation": "hurts"
+    },
+    {
+      "symbol": "HBAR",
+      "phi_without": 0.26131277589370827,
+      "impact": -0.01557512108169809,
+      "interpretation": "hurts"
+    },
+    {
+      "symbol": "RPL",
+      "phi_without": 0.2635920384256994,
+      "impact": -0.017854383613689212,
+      "interpretation": "hurts"
+    }
+  ],
+  "phi_full": 0.24573765481201018,
+  "best_aligned": [
+    "XMR",
+    "CRV",
+    "YFI",
+    "SOL"
+  ],
+  "worst_aligned": [
+    "SUSHI",
+    "AAVE",
+    "HBAR",
+    "RPL"
+  ],
+  "n": 37,
+  "corpus": "contaminated-37",
+  "volume_basis": "base",
+  "note": "Superseded corpus snapshot, retained on the base-asset build in which it was originally analysed. See results_10_usd_figures.json :: contaminated_usd_counterfactual for the USD-notional recomputation."
+}

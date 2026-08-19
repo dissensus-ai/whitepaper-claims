@@ -1,0 +1,72 @@
+{
+  "base": {
+    "n": 43,
+    "comparisons": {
+      "claims_vs_factors": {
+        "r3_phi_raw": 0.30898698444859446,
+        "r3_phi_partial": 0.3380803076098573,
+        "matched_phi_raw": 0.20687316518002924,
+        "matched_phi_partial": 0.18378871827436893,
+        "matched_p_partial": 0.372,
+        "padded_phi_raw": 0.06179739688971887,
+        "padded_phi_partial": 0.06761606152197149,
+        "padded_p_partial": 0.329
+      },
+      "claims_vs_stats": {
+        "r3_phi_raw": 0.31866139646226516,
+        "r3_phi_partial": 0.2579116284611998,
+        "matched_phi_raw": 0.30314575979127933,
+        "matched_phi_partial": 0.24846780481735806,
+        "matched_p_partial": 0.625,
+        "padded_phi_raw": 0.22306297752358556,
+        "padded_phi_partial": 0.18094380251247544,
+        "padded_p_partial": 0.829
+      },
+      "stats_vs_factors": {
+        "r3_phi_raw": 0.5920386704522644,
+        "r3_phi_partial": 0.4592858461154369,
+        "matched_phi_raw": 0.36018487071086325,
+        "matched_phi_partial": 0.27042308507284646,
+        "matched_p_partial": 0.088,
+        "padded_phi_raw": 0.16915390584350412,
+        "padded_phi_partial": 0.13122452746155336,
+        "padded_p_partial": 0.012
+      }
+    }
+  },
+  "usd_close": {
+    "n": 43,
+    "comparisons": {
+      "claims_vs_factors": {
+        "r3_phi_raw": 0.30898698444859446,
+        "r3_phi_partial": 0.3524771882475278,
+        "matched_phi_raw": 0.20687316518002924,
+        "matched_phi_partial": 0.2600577021177957,
+        "matched_p_partial": 0.11,
+        "padded_phi_raw": 0.06179739688971887,
+        "padded_phi_partial": 0.07049543764950554,
+        "padded_p_partial": 0.272
+      },
+      "claims_vs_stats": {
+        "r3_phi_raw": 0.2997999646324029,
+        "r3_phi_partial": 0.2830791914734533,
+        "matched_phi_raw": 0.2800616754125756,
+        "matched_phi_partial": 0.25138312132601376,
+        "matched_p_partial": 0.463,
+        "padded_phi_raw": 0.20985997524268196,
+        "padded_phi_partial": 0.19160890306460518,
+        "padded_p_partial": 0.55
+      },
+      "stats_vs_factors": {
+        "r3_phi_raw": 0.5342485665368476,
+        "r3_phi_partial": 0.4470508466559824,
+        "matched_phi_raw": 0.40250578099405143,
+        "matched_phi_partial": 0.24037315619564678,
+        "matched_p_partial": 0.157,
+        "padded_phi_raw": 0.1526424475819565,
+        "padded_phi_partial": 0.1277288133302807,
+        "padded_p_partial": 0.013
+      }
+    }
+  }
+}
