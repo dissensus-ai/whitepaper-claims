@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17772651.svg)](https://doi.org/10.5281/zenodo.17772651)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 
 **Are Whitepaper Claims Reflected in Market Structure? A Contamination-Aware Pipeline and a Power-Limited Null**
 
@@ -64,6 +64,8 @@ whitepaper-claims/
 ```
 
 ## Installation
+
+Requires **Python 3.13+** (the version stated in `requirements.txt` and the environment the reported results were generated under). The code uses PEP 604 union syntax (`str | None`) without `from __future__` imports, so it will not import on Python ≤ 3.9 in any case.
 
 ```bash
 git clone https://github.com/studiofarzulla/whitepaper-claims.git
